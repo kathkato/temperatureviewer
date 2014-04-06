@@ -1,0 +1,108 @@
+/* From: http://www.maxdesign.com.au/articles/css-layouts/two-liquid/ */
+
+#container
+{
+	width:950px;
+	margin:0 auto;
+}
+
+#header
+{
+	text-align: center;
+	margin-top:20px;
+	padding-top: 20px;
+	background: #004080;
+	color: #FFF;
+}
+
+#header h1
+{
+	margin: 0;
+}
+
+#navigation
+{
+	float: left;
+	width: 100%;
+	background: #004080;
+}
+
+#navigation ul
+{
+	display: inline-block;
+	text-align: center;
+}
+
+#navigation ul li
+{
+	display: inline-block;
+}
+
+#navigation li a
+{
+	display: inline-block;
+	padding: 0em 1.5em;
+	text-decoration: none;
+	font-size: 0.90em;
+	font-weight: 600;
+	outline: 0;
+	color: #FFF;
+}
+
+#navigation li a:hover
+{
+	background: #FFF;
+	border-radius: 7px 7px 0px 0px;
+	color: #004080;
+}
+
+#content-container
+{
+	float: left;
+	width: 100%;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	box-shadow: 0 8px 6px -6px black;
+}
+
+#content
+{
+	clear: left;
+	float: left;
+	width: 90%;
+	padding: 20px 0;
+	margin: 0 0 0 4%;
+	display: inline;
+
+}
+
+#content h2
+{
+	margin: 0; 
+}
+
+#sidebar
+{
+	float: right;
+	width: 20%;
+	padding: 20px 2px;
+	margin: 0 3% 0 0;
+	display: inline;
+}
+
+#sidebar h3
+{
+	margin: 0;
+}
+
+#footer
+{
+	clear: both;
+	text-align: left;
+	padding: 20px;
+	margin:2px 0 15px 0;
+	border: 0;
+	height: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}

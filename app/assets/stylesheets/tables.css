@@ -1,0 +1,59 @@
+/* From: http://pythoughts.com/table-style-css/ */
+
+table {
+	font-size: 95%;
+ 	font-family: 'Lucida Grande', Helvetica, verdana, sans-serif;
+ 	background-color: #FFF;
+ 	border-collapse: collapse;
+ 	width: 100%;
+ 	line-height: 1.2em;
+}
+
+table a:hover {
+	border-bottom: 1px #bbb;
+}
+
+td, th {
+	padding:5px;
+}
+
+thead th {
+ 	border-right: 2px solid #FFF;
+ 	color: #FFF;
+ 	text-align:center;
+ 	padding:2px;
+	height:25px;
+ 	background-color: #004080;
+}
+
+td {
+	font-size: 12px;
+	padding: 4px 7px 2px;
+	vertical-align: top;
+}
+
+tbody tr {
+	background-color: #FFF;
+	border-bottom: 2px solid #c0c0c0;
+}
+
+tbody td {
+	color:#002084;
+	padding:5px;
+	text-align:left;
+}
+
+tbody th {
+ 	text-align:left;
+ 	padding: 2px;
+}
+
+tbody td a, tbody th a {
+ 	color: #002084;
+ 	text-decoration: underline;
+ 	font-weight: normal; 
+}
+
+tbody td a:hover, tbody th a:hover {
+ 	text-decoration: none;
+}
