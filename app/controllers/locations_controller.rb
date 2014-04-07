@@ -56,6 +56,7 @@ class LocationsController < ApplicationController
 
     respond_to do |format|
       if @location.update_attributes(location_params)
+        @location.get_geolookup_location(@location.zip)
         format.html { redirect_to @location, notice: 'Location was successfully updated.' }
         format.json { head :no_content }
       else
